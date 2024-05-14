@@ -1,0 +1,44 @@
+$primary-color: #CAFF1F;
+$primary-color-hover: #a7e31a;
+
+@mixin flex-container($direction: column, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+
+.conteiner-header {
+    @include flex-container(row, center, center);
+    position: relative;
+    background-image: url("../assets/Background-Header.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    .text-header {
+        width: 630px;
+    }
+
+    .title-main {
+        color: white;
+        font-size: 70px;
+        font-weight: 700;
+        font-family: "Epilogue", sans-serif;
+    }
+
+    .subtitle-main {
+        color: #A5A5A5;
+        font-size: 1vw;
+        font-family: "Epilogue", sans-serif;
+    }
+
+    .PrimaryButton{
+        background-color:$primary-color ;
+        padding: 0.7rem 3rem;
+        border-radius: 8px;
+
+        &:hover{
+            background-color:$primary-color-hover ;
+        }
+    }
+}

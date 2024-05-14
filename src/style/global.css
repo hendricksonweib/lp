@@ -1,0 +1,32 @@
+.conteiner-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("../assets/Background-Header.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.conteiner-header .text-header {
+  width: 630px;
+}
+.conteiner-header .title-main {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Epilogue", sans-serif;
+}
+.conteiner-header .subtitle-main {
+  color: #A5A5A5;
+  font-size: 1vw;
+  font-family: "Epilogue", sans-serif;
+}
+.conteiner-header .PrimaryButton {
+  background-color: #CAFF1F;
+  padding: 0.7rem 3rem;
+  border-radius: 8px;
+}
+.conteiner-header .PrimaryButton:hover {
+  background-color: #a7e31a;
+}/*# sourceMappingURL=global.css.map */

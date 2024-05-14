@@ -1,11 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+
+import Header from './components/template/Header'
 
 function App() {
 
   return (
     <>
-    oi
+      <Header />
     </>
   )
 }

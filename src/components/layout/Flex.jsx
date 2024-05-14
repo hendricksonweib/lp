@@ -1,8 +1,15 @@
 import React from 'react';
 
-const CenteredContainer = ({ children }) => {
+const CenteredContainer = ({ item, children }) => {
+  const FlexStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: `(${item})`,
+    flexDirection: 'column',
+  }
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <div style={FlexStyle}>
       {children}
     </div>
   );
