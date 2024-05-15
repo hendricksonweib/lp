@@ -1,4 +1,13 @@
-    .Conteiner-Telefone{
+@mixin flex-container($direction: column, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+$primary-color: #C5C5C5;
+
+.Conteiner-Telefone{
     @keyframes movePhone1 {
         from {
           top: 10rem;
@@ -32,4 +41,10 @@
         position: absolute;
         animation: movePhone2 1.8s forwards;
       }
+    }
+
+    .cases-conteiner{
+      height: 6rem;
+      @include flex-container(row, center, center);
+      background-color:$primary-color;
     }

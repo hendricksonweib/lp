@@ -36,10 +36,11 @@ $primary-color-hover: #a7e31a;
     @include flex-container(row, center, center);
     position: relative;
     background-image: url("../assets/Background-Header.svg");
-    height: 100vh;
+    height: 79vh;
     background-repeat: no-repeat;
 
     .text-header {
+       margin-top: 15vh;
         width: 620px;
     }
 

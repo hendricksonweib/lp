@@ -4,6 +4,7 @@ import Nav from './Nav'
 import HeaderText from './text/HeaderText'
 import FlexRow from '../layout/FlexRow'
 import Telefones from '../animation/Telefones'
+import Cases from '../animation/Cases'
 
 function Header() {
     return (
@@ -15,6 +16,7 @@ function Header() {
                     <Telefones />
                 </FlexRow>
             </header>
+            <Cases />
         </>
     )
 }

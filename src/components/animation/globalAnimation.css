@@ -25,4 +25,13 @@
 .Conteiner-Telefone .phoneRight {
   position: absolute;
   animation: movePhone2 1.8s forwards;
+}
+
+.cases-conteiner {
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #C5C5C5;
 }/*# sourceMappingURL=globalAnimation.css.map */
