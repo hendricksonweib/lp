@@ -1,9 +1,30 @@
-import React from 'react'
+import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import LogoImg from "../../../public/LogoAutoclipper.png"
+import '../../style/global.css'
 
-function Nav() {
+function NavScrollExample() {
   return (
-    <div>Nav</div>
+    <Navbar expand="md" fixed="top" className="bg-body" bg="dark" data-bs-theme="dark">
+      <Container fluid className="d-flex align-items-center justify-content-between">
+        <Navbar.Brand href="#" >
+          <img src={LogoImg} alt="LogoAutoClipper" style={{ height: '50px' }} />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll" className="d-flex align-items-center justify-content-end">
+          <Nav className="my-2 my-lg-0 d-flex align-items-center justify-content-center" style={{ maxHeight: '100px' }} navbarScroll>
+            <Nav.Link href="#action1">O quê?</Nav.Link>
+            <Nav.Link href="#action2">benefícios?</Nav.Link>
+            <Nav.Link href="#action1">Para Quem?</Nav.Link>
+            <Nav.Link href="#action2">FAQ</Nav.Link>
+            <Button variant="outline-success">Faça Parte do Alpha!</Button>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
-export default Nav
+export default NavScrollExample;

@@ -1,11 +1,12 @@
 import React from 'react';
 
-const CenteredContainer = ({ item, children }) => {
+const CenteredContainer = ({ item,gaps, children }) => {
   const FlexStyle = {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: `(${item})`,
+    alignItems:item,
     flexDirection: 'column',
+    gap:gaps
   }
 
   return (

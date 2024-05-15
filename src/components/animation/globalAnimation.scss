@@ -1,0 +1,35 @@
+    .Conteiner-Telefone{
+    @keyframes movePhone1 {
+        from {
+          top: 10rem;
+          left: 40%;
+        }
+      
+        to {
+          top: 8rem;
+          left: 55%;
+        }
+      }
+      
+      .phoneLeft {
+        position: absolute;
+        animation: movePhone1 1.5s forwards;
+      }
+      
+      @keyframes movePhone2 {
+        from {
+          top: 18rem;
+          left: 75%;
+        }
+      
+        to {
+          top: 14rem;
+          left: 65%;
+        }
+      }
+      
+      .phoneRight {
+        position: absolute;
+        animation: movePhone2 1.8s forwards;
+      }
+    }
