@@ -1,3 +1,8 @@
+.bg-body {
+  padding: 0rem 10rem;
+  background-color: #000;
+}
+
 .nav-link {
   color: #fff;
 }
@@ -50,4 +55,9 @@
 }
 .conteiner-header .PrimaryButton:hover {
   background-color: #a7e31a;
+}
+.conteiner-header .PrimaryColorButton {
+  background-color: #CAFF1F;
+  height: 2rem;
+  width: 3rem;
 }/*# sourceMappingURL=global.css.map */

@@ -10,11 +10,12 @@ function HeaderText() {
     return (
         <div className="text-header">
             <Flex item={'start'} gaps={'12px'}>
-                <H3 Subtitle='Que tal criar vídeos virais mais rápido?' fontWeight="500" />
-                <H1 Title='Crie cortes de conteúdo até 10X mais rápido!' color='white' />
+                <H3 Subtitle='Aumente seu engajamento e viralize no YouTube Shorts,
+Instagram Reels e TikTok.' fontWeight="500" />
+                <H1 Title='Crie vídeos 10X mais rápido com nossa IA!' color='white' />
                 <H3 Subtitle='Utilize Inteligência Artificial e crie cortes de conteúdo
 automatizados!' fontWeight="400" />
-                <PrimaryButton Cta='Faça parte do Alpha!' />
+                <PrimaryButton Cta='Quero ser notificado' />
             </Flex>
         </div>
     )

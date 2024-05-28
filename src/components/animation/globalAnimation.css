@@ -34,4 +34,30 @@
   justify-content: center;
   align-items: center;
   background-color: #C5C5C5;
+}
+
+.conteiner-cicle {
+  position: relative;
+  width: 10%;
+  height: 10%;
+}
+
+.empresasNameimg,
+.empresasimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotate-animation {
+  animation: rotate 35s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }/*# sourceMappingURL=globalAnimation.css.map */

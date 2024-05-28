@@ -6,45 +6,75 @@
 }
 
 $primary-color: #C5C5C5;
+$secundar-color: #CAFF1F;
 
-.Conteiner-Telefone{
-    @keyframes movePhone1 {
-        from {
-          top: 10rem;
-          left: 40%;
-        }
-      
-        to {
-          top: 8rem;
-          left: 55%;
-        }
-      }
-      
-      .phoneLeft {
-        position: absolute;
-        animation: movePhone1 1.5s forwards;
-      }
-      
-      @keyframes movePhone2 {
-        from {
-          top: 18rem;
-          left: 75%;
-        }
-      
-        to {
-          top: 14rem;
-          left: 65%;
-        }
-      }
-      
-      .phoneRight {
-        position: absolute;
-        animation: movePhone2 1.8s forwards;
-      }
+.Conteiner-Telefone {
+  @keyframes movePhone1 {
+    from {
+      top: 10rem;
+      left: 40%;
     }
 
-    .cases-conteiner{
-      height: 6rem;
-      @include flex-container(row, center, center);
-      background-color:$primary-color;
+    to {
+      top: 8rem;
+      left: 55%;
     }
+  }
+
+  .phoneLeft {
+    position: absolute;
+    animation: movePhone1 1.5s forwards;
+  }
+
+  @keyframes movePhone2 {
+    from {
+      top: 18rem;
+      left: 75%;
+    }
+
+    to {
+      top: 14rem;
+      left: 65%;
+    }
+  }
+
+  .phoneRight {
+    position: absolute;
+    animation: movePhone2 1.8s forwards;
+  }
+}
+
+
+.cases-conteiner {
+  height: 6rem;
+  @include flex-container(row, center, center);
+  background-color: $primary-color;
+}
+
+.conteiner-cicle {
+  position: relative;
+  width: 10%;
+  height: 10%;
+}
+
+.empresasNameimg,
+.empresasimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotate-animation {
+  @keyframes rotate {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  animation: rotate 35s linear infinite;
+}
