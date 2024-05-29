@@ -3,6 +3,7 @@ import '../../style/global.css'
 import FlexRow from '../layout/FlexRow'
 import Flex from '../layout/Flex'
 import imgBeneficio from '../../assets/imageBeneficio.svg'
+import List from '../layout/List'
 
 function Beneficios() {
     return (
@@ -10,9 +11,10 @@ function Beneficios() {
             <section className="conteiner-beneficios">
                 <FlexRow item={'center'} gaps={'60px'} >
                     <div className="main-bgBeneficio">
-                        <Flex item={'start'} gaps={'60px'}>
+                        <FlexRow item={'start'} gaps={'60px'}>
                             <img className='imgBeneficio' src={imgBeneficio} alt="ilustração beneficio" />
-                        </Flex>
+                            <List/>
+                        </FlexRow>
                     </div>
                 </FlexRow>
             </section>

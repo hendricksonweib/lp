@@ -120,4 +120,15 @@ $bg-color-white: #F2F2F2;
         width: 1200px;
         border-radius: 30px;
     }
+
+    .List-conteiner {
+        list-style: none;
+        width: 600px;
+        color: white;
+
+        .p-list {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
 }
