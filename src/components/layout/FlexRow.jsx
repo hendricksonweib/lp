@@ -3,8 +3,8 @@ import React from 'react'
 function FlexRow({ item, gaps, children }) {
     const FlexStyle = {
         display: 'flex',
-        justifyContent: 'center',
         alignItems: item,
+        justifyContent: 'center',
         flexDirection: 'row',
         gap: gaps
     }

@@ -1,3 +1,19 @@
+.DarkButton {
+  background-color: #000;
+  padding: 0.5rem 3rem;
+  border-radius: 8px;
+  color: #CAFF1F;
+}
+
+.PrimaryButton {
+  background-color: #CAFF1F;
+  padding: 0.5rem 3rem;
+  border-radius: 8px;
+}
+.PrimaryButton:hover {
+  background-color: #a7e31a;
+}
+
 .bg-body {
   padding: 0rem 10rem;
   background-color: #000;
@@ -48,16 +64,40 @@
   font-size: 1vw;
   font-family: "Epilogue", sans-serif;
 }
-.conteiner-header .PrimaryButton {
-  background-color: #CAFF1F;
-  padding: 0.5rem 3rem;
-  border-radius: 8px;
-}
-.conteiner-header .PrimaryButton:hover {
-  background-color: #a7e31a;
-}
 .conteiner-header .PrimaryColorButton {
   background-color: #CAFF1F;
   height: 2rem;
   width: 3rem;
+}
+
+.conteiner-who {
+  background-color: #F2F2F2;
+}
+.conteiner-who .Conteiner-OqueText {
+  width: 32%;
+}
+.conteiner-who .Conteiner-OqueText .h2-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.conteiner-beneficios {
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner-beneficios .imgBeneficio {
+  position: relative;
+  margin-left: 10rem;
+  margin-top: -7rem;
+}
+.conteiner-beneficios .main-bgBeneficio {
+  position: absolute;
+  background-color: #000;
+  margin-top: 45rem;
+  height: 40vh;
+  width: 1200px;
+  border-radius: 30px;
 }/*# sourceMappingURL=global.css.map */
