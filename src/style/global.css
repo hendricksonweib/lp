@@ -154,4 +154,13 @@
   color: #F2F2F2;
   width: 40rem;
   text-align: center;
+}
+
+.bigCase-conteiner {
+  background-color: #0F0F0F;
+  height: 39vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=global.css.map */

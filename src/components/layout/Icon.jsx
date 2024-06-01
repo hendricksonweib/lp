@@ -5,7 +5,7 @@ import PodcastIcon from '../../assets/Icons/PodcastIcon.svg'
 import TvIcon from '../../assets/Icons/TvIcon.svg'
 import ConteudoIcon from '../../assets/Icons/ConteudoIcon.svg'
 
-import Ul from '../controls/Ul'
+import Ul from '../Ui/Ul'
 
 function Icon() {
   return (

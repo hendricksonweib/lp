@@ -4,6 +4,7 @@ import Oque from '../../components/template/pages/Oque'
 import Beneficios from '../../components/template/pages/Beneficios'
 import Quem from '../../components/template/pages/Quem'
 import Forms from '../template/pages/Forms'
+import BigCase from '../template/pages/BigCase'
 
 function LandingPage() {
     return (
@@ -13,6 +14,7 @@ function LandingPage() {
             <Beneficios />
             <Quem />
             <Forms/>
+            <BigCase/>
         </>
     )
 }

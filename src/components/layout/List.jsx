@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../style/global.css'
-import Li from '../controls/Li'
+import Li from '../Ui/Li'
 import Flex from '../layout/Flex'
 import Icon1 from '../../assets/Icons/icon1.svg'
 import Icon2 from '../../assets/Icons/icon2.svg'

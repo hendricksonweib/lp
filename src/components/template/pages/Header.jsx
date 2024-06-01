@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../../style/global.css'
-import Nav from '../Nav'
+import Nav from '../../Ui/Nav'
 import HeaderText from '../text/HeaderText'
 import FlexRow from '../../layout/FlexRow'
 import Telefones from '../../animation/Telefones'

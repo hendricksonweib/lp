@@ -180,3 +180,10 @@ $gray1: #161616;
         text-align: center;
     }
 }
+
+.bigCase-conteiner{
+    background-color: $bg-black;
+    height: 39vh;
+    @include flex-container(column, center, center);
+
+}
