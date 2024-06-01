@@ -112,4 +112,8 @@
 
 .Quem-conteiner {
   background-color: #F2F2F2;
+}
+.Quem-conteiner .ul-quem:hover {
+  transition: transform 0.3s ease;
+  transform: translateY(-10px);
 }/*# sourceMappingURL=global.css.map */

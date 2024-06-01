@@ -2,6 +2,7 @@ import React from 'react'
 import '../../../style/global.css'
 import FlexRow from '../../layout/FlexRow'
 import Flex from '../../layout/Flex'
+import Icon from '../../layout/Icon'
 
 function Quem() {
     return (
@@ -10,9 +11,7 @@ function Quem() {
                 <h2 className='h2-title'>
                     Para Quem é a Autoclipper?
                 </h2>
-                <FlexRow>
-                    OI
-                </FlexRow>
+               <Icon/>
             </Flex>
         </section>
     )

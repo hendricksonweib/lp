@@ -105,7 +105,7 @@ $bg-color-white: #F2F2F2;
 .conteiner-beneficios {
     background-color: $bg-color-white;
     @include flex-container(row, center, center);
-    
+
     .imgBeneficio {
         position: relative;
         margin-left: 10rem;
@@ -134,7 +134,12 @@ $bg-color-white: #F2F2F2;
     }
 }
 
-.Quem-conteiner{
+.Quem-conteiner {
     background-color: $bg-color-white;
+
+    .ul-quem:hover {
+        transition: transform 0.3s ease;
+        transform: translateY(-10px);
+    }
 
 }
