@@ -1,16 +1,11 @@
 import './App.css'
-
-import Header from './components/template/Header'
-import Oque from './components/template/Oque'
-import Beneficios from './components/template/Beneficios'
+import LandingPage from './components/template/routes/LandingPage'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Oque/>
-      <Beneficios/>
+      <LandingPage />
     </>
   )
 }

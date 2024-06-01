@@ -94,12 +94,11 @@
   margin-top: -7rem;
 }
 .conteiner-beneficios .main-bgBeneficio {
-  position: absolute;
   background-color: #000;
-  margin-top: 45rem;
   height: 40vh;
   width: 1200px;
   border-radius: 30px;
+  margin: 10rem 0rem;
 }
 .conteiner-beneficios .List-conteiner {
   list-style: none;
@@ -109,4 +108,8 @@
 .conteiner-beneficios .List-conteiner .p-list {
   font-size: 20px;
   font-weight: 600;
+}
+
+.Quem-conteiner {
+  background-color: #F2F2F2;
 }/*# sourceMappingURL=global.css.map */

@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../style/global.css'
-import FlexRow from '../layout/FlexRow'
-import OqueText from './text/OqueText'
-import ilustracaoVideo from '../../assets/ilustracao-video.svg'
+import '../../../style/global.css'
+import FlexRow from '../../layout/FlexRow'
+import OqueText from '../text/OqueText'
+import ilustracaoVideo from '../../../assets/ilustracao-video.svg'
 
 function Oque() {
     return (

@@ -105,7 +105,7 @@ $bg-color-white: #F2F2F2;
 .conteiner-beneficios {
     background-color: $bg-color-white;
     @include flex-container(row, center, center);
-
+    
     .imgBeneficio {
         position: relative;
         margin-left: 10rem;
@@ -113,12 +113,13 @@ $bg-color-white: #F2F2F2;
     }
 
     .main-bgBeneficio {
-        position: absolute;
+        // position: absolute;
         background-color: #000;
-        margin-top: 45rem;
+        // margin-top: 45rem;
         height: 40vh;
         width: 1200px;
         border-radius: 30px;
+        margin: 10rem 0rem;
     }
 
     .List-conteiner {
@@ -131,4 +132,9 @@ $bg-color-white: #F2F2F2;
             font-weight: 600;
         }
     }
+}
+
+.Quem-conteiner{
+    background-color: $bg-color-white;
+
 }

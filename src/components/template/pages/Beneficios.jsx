@@ -1,9 +1,9 @@
 import React from 'react'
-import '../../style/global.css'
-import FlexRow from '../layout/FlexRow'
-import Flex from '../layout/Flex'
-import imgBeneficio from '../../assets/imageBeneficio.svg'
-import List from '../layout/List'
+import '../../../style/global.css'
+import FlexRow from '../../layout/FlexRow'
+import Flex from '../../layout/Flex'
+import imgBeneficio from '../../../assets/imageBeneficio.svg'
+import List from '../../layout/List'
 
 function Beneficios() {
     return (

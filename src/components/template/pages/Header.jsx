@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../style/global.css'
-import Nav from './Nav'
-import HeaderText from './text/HeaderText'
-import FlexRow from '../layout/FlexRow'
-import Telefones from '../animation/Telefones'
-import Cases from '../animation/Cases'
-import Cicle from '../animation/Cicle'
+import '../../../style/global.css'
+import Nav from '../Nav'
+import HeaderText from '../text/HeaderText'
+import FlexRow from '../../layout/FlexRow'
+import Telefones from '../../animation/Telefones'
+import Cases from '../../animation/Cases'
+import Cicle from '../../animation/Cicle'
 
 function Header() {
     return (
