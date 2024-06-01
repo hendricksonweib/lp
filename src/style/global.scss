@@ -1,6 +1,14 @@
 $primary-color: #CAFF1F;
 $primary-color-hover: #a7e31a;
 $bg-color-white: #F2F2F2;
+$bg-black: #0F0F0F;
+$gray1: #161616;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
 @mixin flex-container($direction: column, $justify: center, $align: center) {
     display: flex;
@@ -91,6 +99,7 @@ $bg-color-white: #F2F2F2;
 
 .conteiner-who {
     background-color: $bg-color-white;
+    height: 79vh;
 
     .Conteiner-OqueText {
         width: 32%;
@@ -105,6 +114,7 @@ $bg-color-white: #F2F2F2;
 .conteiner-beneficios {
     background-color: $bg-color-white;
     @include flex-container(row, center, center);
+    height: 79vh;
 
     .imgBeneficio {
         position: relative;
@@ -136,10 +146,37 @@ $bg-color-white: #F2F2F2;
 
 .Quem-conteiner {
     background-color: $bg-color-white;
+    height: 79vh;
+    @include flex-container(column, center, center);
 
     .ul-quem:hover {
         transition: transform 0.3s ease;
         transform: translateY(-10px);
     }
 
+}
+
+.Conteiner-forms {
+    background-color: $bg-black;
+    height: 79vh;
+    @include flex-container(column, center, center);
+
+    .label-primary {
+        color: $bg-color-white;
+    }
+
+    .input-primary {
+        background-color: $gray1;
+        border: 1px solid $bg-color-white;
+        width: 30rem;
+        padding: 0.5rem;
+        color: #ffffff;
+    }
+
+    .header-cta,
+    .p-cta {
+        color: $bg-color-white;
+        width: 40rem;
+        text-align: center;
+    }
 }
