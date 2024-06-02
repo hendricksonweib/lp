@@ -163,4 +163,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.bigCase-conteiner .h2-bigCase {
+  font-size: 70px;
+  width: 20rem;
+  color: #F2F2F2;
+}
+
+.conteiner-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #050505;
+  color: #F2F2F2;
+  justify-content: space-around;
 }/*# sourceMappingURL=global.css.map */

@@ -1,6 +1,7 @@
 $primary-color: #CAFF1F;
 $primary-color-hover: #a7e31a;
 $bg-color-white: #F2F2F2;
+$bg-black-main: #050505;
 $bg-black: #0F0F0F;
 $gray1: #161616;
 
@@ -181,9 +182,21 @@ $gray1: #161616;
     }
 }
 
-.bigCase-conteiner{
+.bigCase-conteiner {
     background-color: $bg-black;
     height: 39vh;
     @include flex-container(column, center, center);
 
+    .h2-bigCase {
+       font-size: 70px;
+        width: 20rem;
+        color: $bg-color-white;
+    }
+}
+
+.conteiner-footer {
+    @include flex-container(row, center, center);
+    background-color: $bg-black-main;
+    color: $bg-color-white;
+    justify-content: space-around;
 }
