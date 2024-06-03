@@ -12,8 +12,8 @@ function LandingPage() {
     return (
         <>
             <Header />
-            {/* <Oque />
-            <Beneficios />
+            <Oque />
+            {/* <Beneficios />
             <Quem />
             <Forms/>
             <BigCase/>
