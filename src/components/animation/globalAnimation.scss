@@ -78,3 +78,12 @@ $secundar-color: #CAFF1F;
 
   animation: rotate 35s linear infinite;
 }
+
+
+// mobile layout breackpoint
+@media (max-width: 575px) {
+  .Conteiner-Telefone {
+    display: none;
+  }
+
+}

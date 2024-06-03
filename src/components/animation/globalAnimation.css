@@ -60,4 +60,10 @@
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
+}
+
+@media (max-width: 575px) {
+  .Conteiner-Telefone {
+    display: none;
+  }
 }/*# sourceMappingURL=globalAnimation.css.map */

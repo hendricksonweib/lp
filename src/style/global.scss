@@ -194,14 +194,15 @@ $gray1: #161616;
     }
 }
 
-.accord{
+.accord {
     background-color: $bg-black-main;
     padding: 10rem 0;
 }
-    .FAQ-conteiner {
-        width: 50rem;
-        background-color: $bg-black-main;
-    }
+
+.FAQ-conteiner {
+    width: 50rem;
+    background-color: $bg-black-main;
+}
 
 
 .accordion-item,
@@ -232,5 +233,42 @@ $gray1: #161616;
 
     .iconFooter {
         width: 20px;
+    }
+}
+
+
+// mobile layout breackpoint
+@media (max-width: 575px) {
+
+    /* Estilos para dispositivos móveis médios */
+    .bg-body {
+        padding: 0rem;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .btn-outline-success {
+        display: none;
+    }
+
+    .conteiner-header {
+        height: 80vh;
+
+        .text-header {
+            margin-top: 12vh;
+            width: 250px;
+        }
+
+        .title-main {
+            font-size: 30px;
+            font-weight: 700;
+            font-family: "Epilogue", sans-serif;
+        }
+
+        .subtitle-main {
+            font-size: 4.1vw;
+        }
     }
 }

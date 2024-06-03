@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -209,4 +210,32 @@
 }
 .conteiner-footer .iconFooter {
   width: 20px;
+}
+
+@media (max-width: 575px) {
+  /* Estilos para dispositivos móveis médios */
+  .bg-body {
+    padding: 0rem;
+  }
+  .nav-link {
+    display: none;
+  }
+  .btn-outline-success {
+    display: none;
+  }
+  .conteiner-header {
+    height: 80vh;
+  }
+  .conteiner-header .text-header {
+    margin-top: 12vh;
+    width: 250px;
+  }
+  .conteiner-header .title-main {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Epilogue", sans-serif;
+  }
+  .conteiner-header .subtitle-main {
+    font-size: 4.1vw;
+  }
 }/*# sourceMappingURL=global.css.map */

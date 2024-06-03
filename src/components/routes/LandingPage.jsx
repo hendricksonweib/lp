@@ -12,13 +12,13 @@ function LandingPage() {
     return (
         <>
             <Header />
-            <Oque />
+            {/* <Oque />
             <Beneficios />
             <Quem />
             <Forms/>
             <BigCase/>
             <Faq/>
-            <Footer/>
+            <Footer/> */}
         </>
     )
 }
