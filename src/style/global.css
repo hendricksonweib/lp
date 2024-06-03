@@ -170,6 +170,34 @@
   color: #F2F2F2;
 }
 
+.accord {
+  background-color: #050505;
+  padding: 2rem 0;
+}
+
+.FAQ-conteiner {
+  width: 50rem;
+  background-color: #050505;
+}
+
+.accordion-item,
+.accordion-header {
+  color: #F2F2F2;
+  background-color: #050505;
+}
+
+.accordion-button {
+  color: #F2F2F2;
+  background-color: #0F0F0F;
+}
+.accordion-button[aria-expanded=true] {
+  color: #F2F2F2;
+  background-color: #050505;
+}
+.accordion-button::after {
+  background-color: #CAFF1F;
+}
+
 .conteiner-footer {
   display: flex;
   flex-direction: row;
@@ -178,4 +206,7 @@
   background-color: #050505;
   color: #F2F2F2;
   justify-content: space-around;
+}
+.conteiner-footer .iconFooter {
+  width: 20px;
 }/*# sourceMappingURL=global.css.map */

@@ -188,9 +188,39 @@ $gray1: #161616;
     @include flex-container(column, center, center);
 
     .h2-bigCase {
-       font-size: 70px;
+        font-size: 70px;
         width: 20rem;
         color: $bg-color-white;
+    }
+}
+
+.accord{
+    background-color: $bg-black-main;
+    padding: 2rem 0;
+}
+    .FAQ-conteiner {
+        width: 50rem;
+        background-color: $bg-black-main;
+    }
+
+
+.accordion-item,
+.accordion-header {
+    color: $bg-color-white;
+    background-color: $bg-black-main;
+}
+
+.accordion-button {
+    color: $bg-color-white;
+    background-color: $bg-black;
+
+    &[aria-expanded="true"] {
+        color: $bg-color-white;
+        background-color: $bg-black-main;
+    }
+
+    &::after {
+        background-color: $primary-color;
     }
 }
 
@@ -199,4 +229,8 @@ $gray1: #161616;
     background-color: $bg-black-main;
     color: $bg-color-white;
     justify-content: space-around;
+
+    .iconFooter {
+        width: 20px;
+    }
 }

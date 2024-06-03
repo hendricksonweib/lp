@@ -9,7 +9,7 @@ function Forms() {
     return (
         <form action="" className="Conteiner-forms">
             <Flex item={'center'} gaps={'20px'}>
-                <HeaderForms Cta={'Deixe o seu melhor contato para participar da Equipe de usuários Alpha!'} subCta={'Tenha uma máquina de cortes utilizando os serviços da AutoClipper.'} />
+                <HeaderForms Cta={'Deixe o seu melhor contato'} subCta={'Receba notificações do lançamento Beta!'} />
                 <Flex item={'center'} gaps={'50px'}>
                     <Flex item={'center'} gaps={'15px'}>
                         <InputPrimary name={'Nome'} type={'text'} placeholder={'Ex: Fulano'} />
