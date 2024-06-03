@@ -10,7 +10,7 @@ function Beneficios() {
             <section className="conteiner-beneficios">
                 <FlexRow item={'center'} gaps={'60px'} >
                     <div className="main-bgBeneficio">
-                        <FlexRow item={'start'} gaps={'60px'}>
+                        <FlexRow item={'center'} gaps={'60px'}>
                             <img className='imgBeneficio' src={imgBeneficio} alt="ilustração beneficio" />
                             <List/>
                         </FlexRow>

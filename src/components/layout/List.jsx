@@ -13,6 +13,7 @@ function List() {
                 <Li img={Icon1} text={'Descreva o objetivo do seu conteúdo e receba recomendações personalizadas da nossa IA!'} />
                 <Li img={Icon2} text={'Faça edição, reformatação, estilização e edição de legendas em um editor simpflificado!'} />
                 <Li img={Icon3} text={'Utilize as nossas sugestões de títulos para compartilhar os vídeos nas redes sociais!'} />
+                
             </Flex>
         </ul>
     )
