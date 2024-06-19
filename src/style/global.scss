@@ -73,13 +73,13 @@ $gray1: #161616;
     background-repeat: no-repeat;
 
     .text-header {
-        margin-top: 15vh;
+        margin-top: 5vh;
         width: 620px;
     }
 
     .title-main {
         color: white;
-        font-size: 70px;
+        font-size: 68px;
         font-weight: 700;
         font-family: "Epilogue", sans-serif;
     }
@@ -224,6 +224,11 @@ $gray1: #161616;
         background-color: $primary-color;
     }
 }
+#videoPlayer{
+    height: 25rem;
+    border:2px solid #a7e31a;
+    border-radius: 15px;
+}
 
 .conteiner-footer {
     @include flex-container(row, center, center);
@@ -236,10 +241,14 @@ $gray1: #161616;
     }
 }
 
+#carouselExampleIndicators {
+    margin: 3.5rem 10rem 0rem;
+}
 
 // mobile layout breackpoint
 @media (max-width: 575px) {
-    /* Estilos para dispositivos móveis médios */
+
+    /* Nav */
     .bg-body {
         padding: 0rem;
     }
@@ -252,6 +261,7 @@ $gray1: #161616;
         display: none;
     }
 
+    // Header
     .conteiner-header {
         height: 80vh;
 
@@ -270,4 +280,16 @@ $gray1: #161616;
             font-size: 4.1vw;
         }
     }
+
+    // Session oque
+    .conteiner-who {
+        .flexRow {
+            display: none;
+        }
+
+        .ilustracaoVideo {
+            height: 22rem;
+        }
+    }
 }
+
