@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../components/template/pages/Header'
-import Beneficios from '../../components/template/pages/Beneficios'
-import Quem from '../../components/template/pages/Quem'
+import Sobre from '../template/pages/Sobre'
+import CardContainer from '../Ui/CardSession/CardConteiner'
 import Forms from '../template/pages/Forms'
 import Faq from '../template/pages/Faq'
 import BigCase from '../template/pages/BigCase'
@@ -11,13 +11,12 @@ function LandingPage() {
     return (
         <>
             <Header />
-         
-            {/* <Beneficios />
-            <Quem />
+            <Sobre />
             <Forms/>
+            <CardContainer/>
             <BigCase/>
             <Faq/>
-            <Footer/> */}
+            <Footer/>
         </>
     )
 }

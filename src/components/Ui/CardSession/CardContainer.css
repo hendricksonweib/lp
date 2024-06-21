@@ -1,0 +1,42 @@
+.blog-conteiner{
+    margin: 5rem 10rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    /* padding: 20px; */
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+
+.custom-hr {
+    border: none;
+    height: 1px; /* Pode ajustar a espessura */
+    background-color: #808080; /* Cor da linha */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+}

@@ -20,6 +20,20 @@
   background-color: #a7e31a;
 }
 
+.imagemScreen {
+  height: 25rem;
+}
+.imagemScreen:hover {
+  transition: transform 0.3s ease;
+  transform: translateY(-10px);
+}
+
+#videoPlayer {
+  height: 20rem;
+  border: 2px solid #a7e31a;
+  border-radius: 15px;
+}
+
 .bg-body {
   padding: 0rem 10rem;
   background-color: #000;
@@ -61,7 +75,7 @@
 }
 .conteiner-header .title-main {
   color: white;
-  font-size: 68px;
+  font-size: 4rem;
   font-weight: 700;
   font-family: "Epilogue", sans-serif;
 }
@@ -76,16 +90,32 @@
   width: 3rem;
 }
 
+.conteiner-sessionsobre {
+  margin-bottom: 5rem;
+}
+
+.conteiner-sobre {
+  margin: 10rem 0rem;
+}
+.conteiner-sobre .main-sobre {
+  background-color: #F2F2F2;
+}
+.conteiner-sobre .h2-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.conteiner-sobre .p-subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  width: 35rem;
+}
+
 .conteiner-who {
   background-color: #F2F2F2;
   height: 79vh;
 }
 .conteiner-who .Conteiner-OqueText {
   width: 32%;
-}
-.conteiner-who .Conteiner-OqueText .h2-title {
-  font-size: 50px;
-  font-weight: 700;
 }
 
 .conteiner-beneficios {
@@ -196,12 +226,6 @@
 }
 .accordion-button::after {
   background-color: #CAFF1F;
-}
-
-#videoPlayer {
-  height: 25rem;
-  border: 2px solid #a7e31a;
-  border-radius: 15px;
 }
 
 .conteiner-footer {
