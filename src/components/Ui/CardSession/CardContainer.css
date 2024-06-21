@@ -1,12 +1,14 @@
 .blog-conteiner{
-    margin: 5rem 10rem;
+    background-color: #0F0F0F;
 }
-
+.main-blog{
+    padding: 5rem 10rem;
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    /* padding: 20px; */
+
 }
 
 .card {
@@ -37,6 +39,9 @@
 .custom-hr {
     border: none;
     height: 1px; /* Pode ajustar a espessura */
-    background-color: #808080; /* Cor da linha */
+    background-color: #ffffff; /* Cor da linha */
     margin: 20px 0; /* Espaçamento acima e abaixo */
+}
+h4{
+    color: white;
 }

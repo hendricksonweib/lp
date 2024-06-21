@@ -1,13 +1,10 @@
 import React from 'react';
+import '../CardSession/CardContainer.css';
 
-const Card = ({ title, link }) => {
-    const getImageUrl = (url) => {
-        return `https://api.linkpreview.net/?key=YOUR_API_KEY&q=${url}`;
-    };
-
+const Card = ({ title, link, image }) => {
     return (
         <div className="card" onClick={() => window.open(link, "_blank")}>
-            <img src={getImageUrl(link)} alt={title} />
+            <img src={image} alt={title} />
             <h3>{title}</h3>
         </div>
     );
