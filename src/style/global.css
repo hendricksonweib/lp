@@ -28,6 +28,46 @@
   transform: translateY(-10px);
 }
 
+#entrar {
+  margin-right: 1.5em;
+}
+
+.flag-select {
+  position: relative;
+  display: inline-block;
+}
+.flag-select .flag-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+}
+.flag-select .imgflags {
+  height: 45px;
+}
+.flag-select .flag-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.flag-select .flag-options li {
+  padding: 5px;
+  cursor: pointer;
+}
+.flag-select .flag-options li:hover {
+  background: #eee;
+}
+.flag-select:hover .flag-options {
+  display: block;
+}
+
 #videoPlayer {
   height: 20rem;
   border: 2px solid #a7e31a;

@@ -45,6 +45,51 @@ $gray1: #161616;
     }
 }
 
+#entrar{
+    margin-right: 1.5em;
+}
+.flag-select {
+    position: relative;
+    display: inline-block;
+
+    .flag-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        height: 45px;
+    }
+
+    .imgflags {
+        height: 45px;
+    }
+
+    .flag-options {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+        li {
+            padding: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background: #eee;
+            }
+        }
+    }
+
+    &:hover .flag-options {
+        display: block;
+    }
+}
+
 
 #videoPlayer {
     height: 20rem;
@@ -113,12 +158,14 @@ $gray1: #161616;
         width: 3rem;
     }
 }
-.conteiner-sessionsobre{
+
+.conteiner-sessionsobre {
     margin-bottom: 5rem;
 }
+
 .conteiner-sobre {
     margin: 10rem 0rem;
-    
+
     .main-sobre {
         background-color: $bg-color-white;
     }

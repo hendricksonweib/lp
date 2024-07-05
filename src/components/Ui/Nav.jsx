@@ -3,6 +3,7 @@ import PrimaryColorButton from '../controls/PrimaryColorButton'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import FlagButton from '../controls/FlagButton'
 import LogoImg from "../../../public/LogoAutoclipper.png"
 import '../../style/global.css'
 
@@ -21,8 +22,8 @@ function NavScrollExample() {
             <Nav.Link href="#action1">Para Quem?</Nav.Link>
             <Nav.Link href="#action2">FAQ</Nav.Link>
             <Button variant="outline-success">Quero ser notificado!</Button>
-            <Button variant="outline-success">Entrar</Button>
-          
+            <Button id='entrar' variant="outline-success">Entrar</Button>
+            <FlagButton/>
           </Nav>
         </Navbar.Collapse>
       </Container>
