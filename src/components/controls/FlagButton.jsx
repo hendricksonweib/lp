@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import FlagBR from '../../../public/flags/BRflag.svg';
 import FlagEUA from '../../../public/flags/EUAflag.svg';
 import FlagES from '../../../public/flags/ESflag.svg';
@@ -13,6 +13,14 @@ const flags = [
 function FlagButton() {
   const [selectedFlag, setSelectedFlag] = useState(flags[0]);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const currentFlag = flags.find(flag => flag.path === location.pathname);
+    if (currentFlag) {
+      setSelectedFlag(currentFlag);
+    }
+  }, [location.pathname]);
 
   const handleFlagChange = (flag) => {
     setSelectedFlag(flag);

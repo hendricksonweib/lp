@@ -9,7 +9,7 @@ function Forms() {
     return (
         <form action="" className="Conteiner-forms">
             <Flex item={'center'} gaps={'20px'}>
-                <HeaderForms Cta={'Deixe o seu melhor contato'} subCta={'Entraremos em contato em breve para explicar mais sobre a assinatura das nossas soluções.'} />
+                <HeaderForms item={'center'} Cta={'Deixe o seu melhor contato'} subCta={'Entraremos em contato em breve para explicar mais sobre a assinatura das nossas soluções.'} />
                 <Flex item={'center'} gaps={'50px'}>
                     <Flex item={'center'} gaps={'15px'}>
                         <InputPrimary name={'Nome'} type={'text'} placeholder={'Ex: Fulano'} />
