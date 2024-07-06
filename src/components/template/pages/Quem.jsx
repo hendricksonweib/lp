@@ -11,7 +11,12 @@ function Quem() {
                 <h2 className='h2-title'>
                     Para Quem é a Autoclipper?
                 </h2>
-               <Icon/>
+                <Icon
+                    item1={'Canais de Corte'}
+                    item2={'Estúdios de Podcast'}
+                    item3={'Criadores de Conteúdo'}
+                    item4={'Agências de Marketing'}
+                />
             </Flex>
         </section>
     )
