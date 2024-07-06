@@ -7,7 +7,7 @@ function BigCase() {
   return (
     <aside className='bigCase-conteiner'>
       <FlexRow item={'center'} gaps={'100px'}>
-        <h2 className='h2-bigCase'>Empresas Parceiras </h2>
+        <h2 className='h2-bigCase'>Partner Companies </h2>
         <LogoCase />
       </FlexRow>
     </aside>
