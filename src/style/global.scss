@@ -98,11 +98,11 @@ $gray1: #161616;
 }
 
 // NAV STYLE 
-.bg-body {
+.bg-custom {
+    background-color: #161616 !important;
     padding: 0rem 10rem;
-    background-color: #000;
-}
-
+  }
+  
 .nav-link {
     color: #fff;
 
@@ -325,7 +325,7 @@ $gray1: #161616;
 @media (max-width: 575px) {
 
     /* Nav */
-    .bg-body {
+    .bg-custom {
         padding: 0rem;
     }
 

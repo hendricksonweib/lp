@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../components/template/pages/Header'
-import Sobre from '../template/pages/Sobre'
+import Header from '../../components/template/pagesES/Header'
+import Sobre from '../template/pagesES/Sobre'
 import CardContainer from '../Ui/CardSession/CardConteiner'
-import Forms from '../template/pages/Forms'
-import Faq from '../template/pages/Faq'
-import BigCase from '../template/pages/BigCase'
-import Footer from '../template/pages/Footer'
+import Forms from '../template/pagesES/Forms'
+import Faq from '../template/pagesES/Faq'
+import BigCase from '../template/pagesES/BigCase'
+import Footer from '../template/pagesES/Footer'
 
 function EsLandingPage() {
     return (

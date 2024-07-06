@@ -74,9 +74,9 @@
   border-radius: 15px;
 }
 
-.bg-body {
+.bg-custom {
+  background-color: #161616 !important;
   padding: 0rem 10rem;
-  background-color: #000;
 }
 
 .nav-link {
@@ -287,7 +287,7 @@
 
 @media (max-width: 575px) {
   /* Nav */
-  .bg-body {
+  .bg-custom {
     padding: 0rem;
   }
   .nav-link {
