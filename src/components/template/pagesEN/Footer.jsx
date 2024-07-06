@@ -10,7 +10,7 @@ import email from '../../../assets/Icons/email.svg'
 function Footer() {
   return (
     <footer className='conteiner-footer'>
-      <p>© AutoClipper. Todos os direitos reservados.</p>
+      <p>© AutoClipper. All rights reserved.</p>
   
         <Grid columns={'4'} itens={'center'}>
           <img src={whatsapp} className="iconFooter" />
