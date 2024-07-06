@@ -13,8 +13,13 @@ function Header() {
         <>
             <Nav action1={"Inicio"} action2={"Cómo funciona"} action3={"Testimonios"} action4={"En los medios"} action5={"Preguntas frecuentes"} buttom1={"Suscribirse"}/>
             <header className='conteiner-header'>
-                <FlexRow item={'center'} gaps={'200px'}>
-                    <HeaderText />
+                <FlexRow item={'center'} gaps={'50px'}>
+                <HeaderText 
+                    title1={"Aumente su participación y vuélvase viral en YouTube Shorts, Instagram Reels y TikTok."}
+                    title2={"¡Crea vídeos de forma simplificadacon nuestra IA!"}
+                    title3={"¡Genera cortes hasta 10 veces más rápido con nuestra Inteligencia Artificial!"}
+                    cta={"Quero saber mais!"}
+                    />
                     <Video src={teaserAutoclipper} type='video/mp4' />
                 </FlexRow>
             </header>
