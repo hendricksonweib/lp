@@ -11,7 +11,7 @@ import teaserAutoclipper from '../../../assets/videos/teaserAutoclipper.mp4'
 function Header() {
     return (
         <>
-            <Nav action1={"Inicio"} action2={"Cómo funciona"} action3={"Testimonios"} action4={"En los medios"} action5={"Preguntas frecuentes"} buttom1={"Suscribirse"}/>
+            <Nav action1={"Home"} action2={"How It Works"} action3={"Testimonials"} action4={"In the Media"} action5={"FAQ"} buttom1={"Sign up"}/>
             <header className='conteiner-header'>
                 <FlexRow item={'center'} gaps={'200px'}>
                     <HeaderText />
