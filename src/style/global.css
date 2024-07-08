@@ -130,6 +130,10 @@
   width: 3rem;
 }
 
+.ComoFunciona-conteiner {
+  background-color: #F2F2F2;
+}
+
 .conteiner-sessionsobre {
   margin-bottom: 5rem;
 }
@@ -188,7 +192,18 @@
   font-weight: 600;
 }
 
+.p-icon {
+  font-weight: 600;
+}
+
 .TituloQuem {
+  text-align: start;
+  font-weight: 700;
+  width: 17em;
+}
+
+.TituloComo {
+  text-align: center;
   font-weight: 700;
   width: 17em;
 }

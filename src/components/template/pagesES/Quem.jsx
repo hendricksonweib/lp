@@ -8,9 +8,7 @@ function Quem() {
     return (
         <section className='Quem-conteiner'>
             <Flex item={'center'} gaps={'0px'}>
-                <h2 className='h2-title'>
-                    ¿Para quién es Autoclipper?
-                </h2>
+                <h1 className="TituloComo" >¿Para quién es Autoclipper?</h1>
                 <Icon
                     item1={'Canales cortados'}
                     item2={'Estudios de podcast'}

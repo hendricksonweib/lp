@@ -45,9 +45,10 @@ $gray1: #161616;
     }
 }
 
-#entrar{
+#entrar {
     margin-right: 1.5em;
 }
+
 .flag-select {
     position: relative;
     display: inline-block;
@@ -101,8 +102,8 @@ $gray1: #161616;
 .bg-custom {
     background-color: #161616 !important;
     padding: 0rem 10rem;
-  }
-  
+}
+
 .nav-link {
     color: #fff;
 
@@ -157,6 +158,10 @@ $gray1: #161616;
         height: 2rem;
         width: 3rem;
     }
+}
+
+.ComoFunciona-conteiner {
+    background-color: $bg-color-white;
 }
 
 .conteiner-sessionsobre {
@@ -222,10 +227,22 @@ $gray1: #161616;
             font-size: 20px;
             font-weight: 600;
         }
+
     }
 }
 
-.TituloQuem{
+.p-icon {
+    font-weight: 600;
+}
+
+.TituloQuem {
+    text-align: start;
+    font-weight: 700;
+    width: 17em;
+}
+
+.TituloComo {
+    text-align: center;
     font-weight: 700;
     width: 17em;
 }
