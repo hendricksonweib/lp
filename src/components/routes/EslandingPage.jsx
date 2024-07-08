@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/template/pagesES/Header'
+import ComoFunciona from '../template/pagesES/ComoFunciona'
 import Quem from '../template/pagesES/Quem'
 import Sobre from '../template/pagesES/Sobre'
 import CardContainer from '../Ui/CardSession/CardConteiner'
@@ -12,6 +13,7 @@ function EsLandingPage() {
     return (
         <>
             <Header />
+            <ComoFunciona/>
             <Quem/>
             <Sobre />
             <Forms />
