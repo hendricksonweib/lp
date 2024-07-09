@@ -15,9 +15,11 @@
     "@mui/material": "^5.15.19",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "bootstrap": "^5.3.3",
+    "framer-motion": "^11.2.13",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.10.3",
     "react-router-dom": "^6.24.1",
     "styled-components": "^6.1.11"
   },

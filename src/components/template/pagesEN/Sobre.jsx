@@ -15,12 +15,12 @@ function Sobre() {
         <div className="conteiner-sessionsobre">
             <Flex item={'center'} gaps={'12px'}>
                 <section >
-                    <SessionScreen img={screen1} text={'Recomendações Personalizadas'} subtitle={'Receba recomendações dos melhores trechos, de forma personalizada, com a nossa Inteligência Artificial.'} />
-                    <SessionScreenLeft img={screen3} text={'Transforme em Shorts'} subtitle={'Transforme clipes para o formato mais em alta nas redes sociais e viralize!'} />
-                    <SessionScreen img={screen2} text={'Legendas Estilizadas'} subtitle={'Tenha total autonomia para estilizar fontes, animações, caixas de destaque e salvar as suas configurações favoritas de legendas!'} />
-                    <SessionScreenLeft img={screen4} text={'Inspirações de títulos e Copies'} subtitle={'Receba inspirações de títulos e copies da nossa Inteligência Artificial para otimizar tempo na descrição dos criativos'} />
+                    <SessionScreen img={screen1} text={'Personalized Recommendations'} subtitle={'Receive personalized recommendations of the best clips with our Artificial Intelligence.'} />
+                    <SessionScreenLeft img={screen3} text={'Transform into Shorts'} subtitle={'Transform clips into the most trending format on social media and go viral!'} />
+                    <SessionScreen img={screen2} text={'Stylized Subtitles'} subtitle={'Have full autonomy to style fonts, animations, highlight boxes, and save your favorite subtitle settings!'} />
+                    <SessionScreenLeft img={screen4} text={'Title and Copy Inspirations'} subtitle={'Receive title and copy inspirations from our Artificial Intelligence to save time on creative descriptions.'} />
                 </section>
-                <PrimaryButton Cta='Quero saber mais!' style={{ marginBottom: '20rem' }} />
+                <PrimaryButton Cta='I want to know more!' style={{ marginBottom: '20rem' }} />
             </Flex>
             </div>
         </>

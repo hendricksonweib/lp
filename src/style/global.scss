@@ -165,18 +165,24 @@ $gray1: #161616;
 }
 
 .conteiner-sessionsobre {
-    margin-bottom: 5rem;
+    @include flex-container(column, center, center);
+    background-color: $bg-black-main;
+    padding-bottom: 5em;
+}
+
+.section-sobre,
+.main-sobre {
+    @include flex-container(column, center, center);
+    background-color: $bg-black-main;
 }
 
 .conteiner-sobre {
     margin: 10rem 0rem;
-
-    .main-sobre {
-        background-color: $bg-color-white;
-    }
-
+    background-color: $bg-black-main;
+    color: white;
 
     .h2-title {
+
         font-size: 40px;
         font-weight: 700;
     }

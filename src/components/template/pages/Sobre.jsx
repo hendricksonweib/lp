@@ -12,16 +12,14 @@ import '../../../style/global.css'
 function Sobre() {
     return (
         <>
-        <div className="conteiner-sessionsobre">
-            <Flex item={'center'} gaps={'12px'}>
-                <section >
+            <div className="conteiner-sessionsobre">
+                <section className="section-sobre">
                     <SessionScreen img={screen1} text={'Recomendações Personalizadas'} subtitle={'Receba recomendações dos melhores trechos, de forma personalizada, com a nossa Inteligência Artificial.'} />
                     <SessionScreenLeft img={screen3} text={'Transforme em Shorts'} subtitle={'Transforme clipes para o formato mais em alta nas redes sociais e viralize!'} />
                     <SessionScreen img={screen2} text={'Legendas Estilizadas'} subtitle={'Tenha total autonomia para estilizar fontes, animações, caixas de destaque e salvar as suas configurações favoritas de legendas!'} />
                     <SessionScreenLeft img={screen4} text={'Inspirações de títulos e Copies'} subtitle={'Receba inspirações de títulos e copies da nossa Inteligência Artificial para otimizar tempo na descrição dos criativos'} />
                 </section>
-                <PrimaryButton Cta='Quero saber mais!' style={{ marginBottom: '20rem' }} />
-            </Flex>
+                    <PrimaryButton Cta='Quero saber mais!' className="section-buttom" />
             </div>
         </>
     )
