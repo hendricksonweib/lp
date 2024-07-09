@@ -13,8 +13,6 @@ function Forms() {
                 <Flex item={'center'} gaps={'50px'}>
                     <Flex item={'center'} gaps={'15px'}>
                         <InputPrimary name={'Nome'} type={'text'} placeholder={'Ex: Fulano'} />
-                        <InputPrimary name={'Empresa'} type={'text'} placeholder={'Ex.: Sua empresa'} />
-                        <InputPrimary name={'Cargo'} type={'text'} placeholder={'Ex.: Meu Cargo'} />
                         <InputPrimary name={'E-mail'} type={'email'} placeholder={'Ex: fulano.silva@corporativo.com'} />
                         <InputPrimary name={'Telefone'} type={'number'} placeholder={'Ex: 5511999999999'} />
                     </Flex>

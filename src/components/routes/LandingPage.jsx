@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/template/pages/Header'
 import ComoFunciona from '../template/pages/ComoFunciona'
+import Tutorial from '../template/pages/Tutorial'
 import Quem from '../template/pages/Quem'
 import Sobre from '../template/pages/Sobre'
 import CardContainer from '../Ui/CardSession/CardConteiner'
@@ -16,6 +17,7 @@ function LandingPage() {
             <ComoFunciona/>
             <Quem/>
             <Sobre />
+            <Tutorial/>
             <Forms/>
             <CardContainer/>
             <BigCase/>

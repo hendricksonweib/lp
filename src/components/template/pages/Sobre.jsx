@@ -19,7 +19,6 @@ function Sobre() {
                     <SessionScreen img={screen2} text={'Legendas Estilizadas'} subtitle={'Tenha total autonomia para estilizar fontes, animações, caixas de destaque e salvar as suas configurações favoritas de legendas!'} />
                     <SessionScreenLeft img={screen4} text={'Inspirações de títulos e Copies'} subtitle={'Receba inspirações de títulos e copies da nossa Inteligência Artificial para otimizar tempo na descrição dos criativos'} />
                 </section>
-                    <PrimaryButton Cta='Quero saber mais!' className="section-buttom" />
             </div>
         </>
     )

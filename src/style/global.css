@@ -234,6 +234,10 @@
   transform: translateY(-10px);
 }
 
+.conteiner-tutorial {
+  padding: 4em 0rem;
+}
+
 .Conteiner-forms {
   background-color: #0F0F0F;
   height: 79vh;

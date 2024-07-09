@@ -6,7 +6,7 @@ import FlexRow from '../../layout/FlexRow'
 import Cases from '../../animation/Cases'
 import Cicle from '../../animation/Cicle'
 import Video from '../../Ui/Video'
-import teaserAutoclipper from '../../../assets/videos/teaserAutoclipper.mp4'
+import teaserAutoclipper from '../../../assets/videos/teaserAutoclipperEN.mp4'
 
 function Header() {
     return (
@@ -16,7 +16,7 @@ function Header() {
                 <FlexRow item={'center'} gaps={'50px'}>
                 <HeaderText 
                     title1={"Increase your engagement and go viral on YouTube Shorts, Instagram Reels and TikTok."}
-                    title2={"Create videos in a simplified waywith our AI!"}
+                    title2={"Create videos in a simplified way with our AI!"}
                     title3={"Generate cuts up to 10X faster with our Artificial intelligence!"}
                     cta={"I want to know more!"}
                     />

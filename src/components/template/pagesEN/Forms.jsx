@@ -9,16 +9,14 @@ function Forms() {
     return (
         <form action="" className="Conteiner-forms">
             <Flex item={'center'} gaps={'20px'}>
-                <HeaderForms item={'center'} Cta={'Deixe o seu melhor contato'} subCta={'Entraremos em contato em breve para explicar mais sobre a assinatura das nossas soluções.'} />
+                <HeaderForms item={'center'} cta={'Leave your best contact'} subCta={'We will get in touch soon to explain more about the subscription to our solutions.'} />
                 <Flex item={'center'} gaps={'50px'}>
                     <Flex item={'center'} gaps={'15px'}>
-                        <InputPrimary name={'Nome'} type={'text'} placeholder={'Ex: Fulano'} />
-                        <InputPrimary name={'Empresa'} type={'text'} placeholder={'Ex.: Sua empresa'} />
-                        <InputPrimary name={'Cargo'} type={'text'} placeholder={'Ex.: Meu Cargo'} />
-                        <InputPrimary name={'E-mail'} type={'email'} placeholder={'Ex: fulano.silva@corporativo.com'} />
-                        <InputPrimary name={'Telefone'} type={'number'} placeholder={'Ex: 5511999999999'} />
+                        <InputPrimary name={'Name'} type={'text'} placeholder={'Ex: John Doe'} />
+                        <InputPrimary name={'Email'} type={'email'} placeholder={'Ex: john.doe@corporate.com'} />
+                        <InputPrimary name={'Phone'} type={'number'} placeholder={'Ex: 5511999999999'} />
                     </Flex>
-                    <PrimaryButton Cta={'Inscrever'} />
+                    <PrimaryButton Cta={'Subscribe'} />
                 </Flex>
             </Flex>
         </form>

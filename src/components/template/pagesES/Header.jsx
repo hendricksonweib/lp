@@ -6,7 +6,7 @@ import FlexRow from '../../layout/FlexRow'
 import Cases from '../../animation/Cases'
 import Cicle from '../../animation/Cicle'
 import Video from '../../Ui/Video'
-import teaserAutoclipper from '../../../assets/videos/teaserAutoclipper.mp4'
+import teaserAutoclipper from '../../../assets/videos/teaserAutoclipperEN.mp4'
 
 function Header() {
     return (
