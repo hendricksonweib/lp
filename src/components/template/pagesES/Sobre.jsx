@@ -20,7 +20,6 @@ function Sobre() {
                     <SessionScreen img={screen2} text={'Subtítulos Estilizados'} subtitle={'¡Ten total autonomía para estilizar fuentes, animaciones, cajas de resaltado y guardar tus configuraciones favoritas de subtítulos!'} />
                     <SessionScreenLeft img={screen4} text={'Inspiraciones de Títulos y Copys'} subtitle={'Recibe inspiraciones de títulos y copys de nuestra Inteligencia Artificial para ahorrar tiempo en las descripciones creativas.'} />
                 </section>
-                <PrimaryButton Cta='¡Quiero saber más!' style={{ marginBottom: '20rem' }} />
             </Flex>
             </div>
         </>

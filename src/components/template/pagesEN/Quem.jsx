@@ -10,7 +10,7 @@ function Quem() {
             <Flex item={'center'} gaps={'0px'}>
             <h1 className="TituloComo" >Who is Autoclipper for?</h1>
                 <Icon
-                    item1={'Cut Channels'}
+                    item1={'Dark clip Channels'}
                     item2={'Podcast Studios'}
                     item3={'Content Creators'}
                     item4={'Marketing Agencies'}

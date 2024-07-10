@@ -12,8 +12,8 @@ function ComoFunciona() {
             <FlexRow item={"center"} gaps={"50px"}>
                 <img src={screenImg} alt="imagem.svg" />
                 <Flex item={"start"} gaps={'12px'}>
-                    <h1 className="TituloQuem" >Follow the lead of top content creators and effectively repurpose your long videos.</h1>
-                    <DarkButton cta={"I want to sign up now!"}/>
+                    <h1 className="TituloQuem" >Follow the top creators and  start to repurpose your long videos.</h1>
+                    <DarkButton cta={"Sign up for beta!"}/>
                 </Flex>
             </FlexRow>
         </section>

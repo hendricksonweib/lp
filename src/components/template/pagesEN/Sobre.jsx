@@ -15,13 +15,12 @@ function Sobre() {
         <div className="conteiner-sessionsobre">
             <Flex item={'center'} gaps={'12px'}>
                 <section >
-                    <SessionScreen img={screen1} text={'Personalized Recommendations'} subtitle={'Receive personalized recommendations of the best clips with our Artificial Intelligence.'} />
-                    <SessionScreenLeft img={screen3} text={'Transform into Shorts'} subtitle={'Transform clips into the most trending format on social media and go viral!'} />
-                    <SessionScreen img={screen2} text={'Stylized Subtitles'} subtitle={'Have full autonomy to style fonts, animations, highlight boxes, and save your favorite subtitle settings!'} />
-                    <SessionScreenLeft img={screen4} text={'Title and Copy Inspirations'} subtitle={'Receive title and copy inspirations from our Artificial Intelligence to save time on creative descriptions.'} />
+                    <SessionScreen img={screen1} text={'AI Curation'} subtitle={'Receive personalized recommendations of the best clips with our Artificial Intelligence.'} />
+                    <SessionScreenLeft img={screen3} text={'Risize into Shorts'} subtitle={'Transform landscape videos into the most trending format on social media and go viral!'} />
+                    <SessionScreen img={screen2} text={'Customize your captions'} subtitle={'Have full autonomy to style fonts, animations, highlight boxes, and save your favorite sub presets!'} />
+                    <SessionScreenLeft img={screen4} text={'AI title and tags generation'} subtitle={'Receive title and copy inspirations from our Artificial Intelligence to save time on creative descriptions.'} />
                 </section>
-                <PrimaryButton Cta='I want to know more!' style={{ marginBottom: '20rem' }} />
-            </Flex>
+              </Flex>
             </div>
         </>
     )

@@ -4,6 +4,7 @@ import ComoFunciona from '../template/pagesEN/ComoFunciona'
 import Quem from '../template/pagesEN/Quem'
 import Sobre from '../template/pagesEN/Sobre'
 import CardContainer from '../Ui/CardSession/CardConteiner'
+import Tutorial from '../template/pagesEN/Tutorial'
 import Forms from '../template/pagesEN/Forms'
 import Faq from '../template/pagesEN/Faq'
 import BigCase from '../template/pagesEN/BigCase'
@@ -16,6 +17,7 @@ function EnLandingPage() {
             <ComoFunciona/>
             <Quem/>
             <Sobre />
+            <Tutorial/>
             <Forms />
             <CardContainer />
             <BigCase />

@@ -17,8 +17,8 @@ function Header() {
                 <HeaderText 
                     title1={"Increase your engagement and go viral on YouTube Shorts, Instagram Reels and TikTok."}
                     title2={"Create videos in a simplified way with our AI!"}
-                    title3={"Generate cuts up to 10X faster with our Artificial intelligence!"}
-                    cta={"I want to know more!"}
+                    title3={"Generate clips up to 10X faster with our Artificial intelligence!"}
+                    cta={"Sign up for beta!"}
                     />
                     <Video src={teaserAutoclipper} type='video/mp4' />
                 </FlexRow>
