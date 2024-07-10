@@ -6,8 +6,10 @@ import PrimaryButton from '../../controls/PrimaryButton'
 import HeaderForms from '../text/HeaderForms'
 import RadialImput from '../../controls/RadialImput'
 
+
 function FormsPt() {
     return (
+        <>
         <form action="" className="Conteiner-forms">
             <Flex item={'center'} gaps={'20px'}>
                 <HeaderForms item={'center'} Cta={'Deixe seu melhor contato'} subCta={'Entraremos em contato em breve para explicar mais sobre a assinatura de nossas soluções.'} />
@@ -29,8 +31,10 @@ function FormsPt() {
                     </Flex>
                     <PrimaryButton Cta={'Inscrever-se'} />
                 </Flex>
+                
             </Flex>
         </form>
+        </>
     )
 }
 

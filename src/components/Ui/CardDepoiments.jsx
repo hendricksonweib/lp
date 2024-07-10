@@ -6,7 +6,7 @@ import "../../style/global.css"
 function CardDepoiments({ link, Name, Empresa }) {
     return (
         <div className='cardDepoimento-conteiner'>
-            <Flex item={"start"} gaps={"0.5rem"}>
+            <Flex item={"center"} gaps={"0.5rem"}>
             <iframe className='video'
                 width="228"
                 height="404"
@@ -16,7 +16,7 @@ function CardDepoiments({ link, Name, Empresa }) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
-            <Flex item={"start"}>
+            <Flex item={"center"}>
             <h1 className='h1-depoimento'>{Name}</h1>
             <h2 className='h2-depoimento'>{Empresa}</h2>
             </Flex>

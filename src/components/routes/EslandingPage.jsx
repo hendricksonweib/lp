@@ -5,6 +5,7 @@ import Quem from '../template/pagesES/Quem'
 import Sobre from '../template/pagesES/Sobre'
 import CardContainer from '../Ui/CardSession/CardConteiner'
 import Tutorial from '../template/pagesES/Tutorial'
+import Depoimentos from '../template/pagesES/Depoimentos'
 import Forms from '../template/pagesES/Forms'
 import Faq from '../template/pagesES/Faq'
 import BigCase from '../template/pagesES/BigCase'
@@ -18,6 +19,7 @@ function EsLandingPage() {
             <Quem/>
             <Sobre />
             <Tutorial/>
+            <Depoimentos/>
             <Forms />
             <CardContainer />
             <BigCase />
