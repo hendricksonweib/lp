@@ -43,7 +43,7 @@ function FormsPt() {
                 alert('Erro ao enviar o formulário.');
             }
         } catch (error) {
-            console.error('Erro:', error);
+            console.error('Erro:', error)
             alert('Erro ao enviar o formulário.');
         }
     };
