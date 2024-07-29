@@ -2,11 +2,11 @@ import React from 'react';
 import FlexRow from '../layout/FlexRow';
 import "../../style/global.css";
 
-function RadialImput({ text, onChange }) {
+function RadialImput({ text, name, onChange }) {
     return (
         <>
         <FlexRow item={"center"} gaps={"1rem"}>
-            <input type="radio" name="RadialInput" value={text} onChange={onChange} />
+            <input type="radio" name={name} value={text} onChange={onChange} />
             <label htmlFor={text}>{text}</label>
         </FlexRow>
         </>
