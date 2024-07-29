@@ -8,8 +8,14 @@ $gray1: #161616;
 * {
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 @mixin flex-container($direction: column, $justify: center, $align: center) {
     display: flex;

@@ -10,23 +10,22 @@ import Forms from '../template/pages/Forms'
 import Faq from '../template/pages/Faq'
 import BigCase from '../template/pages/BigCase'
 import Footer from '../template/pages/Footer'
-
 function LandingPage() {
     return (
         <>
-            <Header />
-            <ComoFunciona/>
-            <Quem/>
-            <Sobre />
-            <Tutorial/>
-            <Depoimentos/>
-            <Forms/>
-            <CardContainer/>
-            <BigCase/>
-            <Faq/>
-            <Footer/>
+            <Header id="header" />
+            <ComoFunciona id="como-funciona" />
+            <Quem id="quem" />
+            <Sobre id="sobre" />
+            <Tutorial id="tutorial" />
+            <Depoimentos id="depoimentos" />
+            <Forms id="forms" />
+            <CardContainer id="card-container" />
+            <BigCase id="big-case" />
+            <Faq id="faq" />
+            <Footer id="footer" />
         </>
-    )
+    );
 }
 
-export default LandingPage
+export default LandingPage;
